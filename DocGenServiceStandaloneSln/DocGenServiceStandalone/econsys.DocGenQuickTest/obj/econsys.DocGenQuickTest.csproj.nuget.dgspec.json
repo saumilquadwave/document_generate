@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\codetrade\\Downloads\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj": {}
+    "C:\\Saumil\\Source\\Document_Generation\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\codetrade\\Downloads\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj": {
+    "C:\\Saumil\\Source\\Document_Generation\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\codetrade\\Downloads\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj",
+        "projectUniqueName": "C:\\Saumil\\Source\\Document_Generation\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj",
         "projectName": "econsys.DocGenQuickTest",
-        "projectPath": "C:\\Users\\codetrade\\Downloads\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj",
+        "projectPath": "C:\\Saumil\\Source\\Document_Generation\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj",
         "packagesPath": "C:\\Users\\codetrade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\codetrade\\Downloads\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\obj\\",
+        "outputPath": "C:\\Saumil\\Source\\Document_Generation\\DocGenServiceStandaloneSln\\DocGenServiceStandalone\\econsys.DocGenQuickTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\codetrade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +28,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.mediacliphub.com/api/v4/projects/112/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("econsys.DocGenQuickTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f56c636142f510016640acf8305acd476576e08")]
 [assembly: System.Reflection.AssemblyProductAttribute("econsys.DocGenQuickTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("econsys.DocGenQuickTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\econsys.DocGenServiceSTA.props" />
-</Project>
