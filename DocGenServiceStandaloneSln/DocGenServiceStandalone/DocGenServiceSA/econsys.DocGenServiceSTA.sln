@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "econsys.DocGenServiceSTA", "econsys.DocGenServiceSTA.csproj", "{9E6FA2F1-AD3A-49AE-922B-FC3C4CBEC7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "econsys.DocGenQuickTest", "..\econsys.DocGenQuickTest\econsys.DocGenQuickTest.csproj", "{9DCA9FF3-C3EE-4A0F-B6B9-B3320405E3C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E6FA2F1-AD3A-49AE-922B-FC3C4CBEC7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6FA2F1-AD3A-49AE-922B-FC3C4CBEC7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6FA2F1-AD3A-49AE-922B-FC3C4CBEC7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6FA2F1-AD3A-49AE-922B-FC3C4CBEC7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCA9FF3-C3EE-4A0F-B6B9-B3320405E3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCA9FF3-C3EE-4A0F-B6B9-B3320405E3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCA9FF3-C3EE-4A0F-B6B9-B3320405E3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCA9FF3-C3EE-4A0F-B6B9-B3320405E3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38287D8D-DA75-4C30-8960-5CEB0828F4AF}
+	EndGlobalSection
+EndGlobal

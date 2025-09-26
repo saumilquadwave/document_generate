@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "econsys.DocGenServiceSTA.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\econsys.DocGenQuickTest\\econsys.DocGenQuickTest.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

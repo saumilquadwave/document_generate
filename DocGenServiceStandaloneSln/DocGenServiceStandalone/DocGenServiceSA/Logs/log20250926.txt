@@ -1,0 +1,22 @@
+2025-09-26 10:51:51.530 +05:30 [INF] Now listening on: https://localhost:7160
+2025-09-26 10:51:51.562 +05:30 [INF] Now listening on: http://localhost:5268
+2025-09-26 10:51:51.565 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-26 10:51:51.565 +05:30 [INF] Hosting environment: Development
+2025-09-26 10:51:51.565 +05:30 [INF] Content root path: C:\Users\codetrade\Downloads\DocGenServiceStandaloneSln\DocGenServiceStandalone\DocGenServiceSA
+2025-09-26 10:51:55.495 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7160/swagger/index.html - -
+2025-09-26 10:51:56.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7160/swagger/index.html - - - 200 - text/html;charset=utf-8 526.6560ms
+2025-09-26 10:51:56.043 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7160/_vs/browserLink - -
+2025-09-26 10:51:56.044 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7160/_framework/aspnetcore-browser-refresh.js - -
+2025-09-26 10:51:56.111 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7160/_framework/aspnetcore-browser-refresh.js - - - 200 13784 application/javascript;+charset=utf-8 67.1723ms
+2025-09-26 10:51:56.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7160/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 161.9884ms
+2025-09-26 10:51:56.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7160/swagger/v1/swagger.json - -
+2025-09-26 10:51:56.371 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7160/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.4537ms
+2025-09-26 10:52:26.890 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7160/api/DocumentGenerator/Generate application/json 451
+2025-09-26 10:52:26.896 +05:30 [INF] CORS policy execution failed.
+2025-09-26 10:52:26.897 +05:30 [INF] Request origin https://localhost:7160 does not have permission to access the resource.
+2025-09-26 10:52:26.905 +05:30 [INF] Executing endpoint 'econsys.DocGenServiceSTA.Controllers.DocumentGeneratorController.GenerateDocument (econsys.DocGenServiceSTA)'
+2025-09-26 10:52:26.955 +05:30 [INF] Route matched with {action = "GenerateDocument", controller = "DocumentGenerator"}. Executing controller action with signature System.Threading.Tasks.Task`1[econsys.DocGenServiceSTA.Models.ResponseDto] GenerateDocument(econsys.DocGenServiceSTA.Models.RequestDto) on controller econsys.DocGenServiceSTA.Controllers.DocumentGeneratorController (econsys.DocGenServiceSTA).
+2025-09-26 10:52:27.038 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-09-26 10:52:27.052 +05:30 [INF] Executed action econsys.DocGenServiceSTA.Controllers.DocumentGeneratorController.GenerateDocument (econsys.DocGenServiceSTA) in 95.3476ms
+2025-09-26 10:52:27.053 +05:30 [INF] Executed endpoint 'econsys.DocGenServiceSTA.Controllers.DocumentGeneratorController.GenerateDocument (econsys.DocGenServiceSTA)'
+2025-09-26 10:52:27.053 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7160/api/DocumentGenerator/Generate application/json 451 - 400 - application/problem+json;+charset=utf-8 162.9905ms
